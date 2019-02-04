@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: gainsboro;
+  font-family: 'Exo 2', sans-serif;
+  color: #000655;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+hr {
+  /*background-color: rebeccapurple;*/
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: rebeccapurple;
+  width: 15%;
+  margin: 50px auto;
+}
+
+input, textarea {
+  color: #000655;
+}
+
+table {
+  background-color: silver;
+  border-color: #000655;
+  border-collapse: collapse;
+  border: 1px solid #424242;
+}
+
+th, td {
+  border: 1px solid #424242;
+  padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #722F37;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+/*-----------------------------------------IMAGES--------------------------- */
+
+.fritz {
+  width: 256px;
+  float: left;
+  margin-right: 30px;
+}
+
+.mikasa {
+  width: 256px;
+  float: left;
+  margin-right: 30px;
+}
+
+/*------------------------------------------------DIVS---------------------- */
+
+.top-container {
+  background-color: silver;
+  margin: 0;
+  padding: 50px;
+}
+
+.fritz-container {
+  display: inline-block;
+  margin: 0 auto 50px;
+  overflow: auto;
+}
+
+.top-container-text {
+  text-align: left;
+  width: 50%;
+}
+
+.mikasa-container {
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+.tech-container {
+  width: 50%;
+  margin: 0 auto;
+}
+/*----------------------------------------------TABLES----------------------*/
+
+.skill-table {
+  margin: 50px auto 0;
+}
+
+.experience-table {
+  margin: 50px auto 0;
+}
